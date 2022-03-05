@@ -12,3 +12,5 @@ https://mrsdno.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Christine Diienno
+
+### ©️ 2022 Run Buddy, Inc
