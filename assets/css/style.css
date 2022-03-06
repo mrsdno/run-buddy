@@ -9,13 +9,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section {
+    padding: 60px;
+}
+
+/*navigation (header) start*/
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
-}
-
-section {
-    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -23,7 +27,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -32,7 +35,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -45,7 +47,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/*navigation (header) end */
 
+/*footer start*/
 footer {
     background: #fce138;
     width: 100%;
@@ -68,6 +72,7 @@ footer div {
 footer a {
     color: #024e76;
 }
+/*footer end*/
 
 /* Hero style start */
 .hero {
