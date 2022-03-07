@@ -178,6 +178,7 @@ h3 {
 /*steps start */
 .steps {
     background: #fce138;
+    text-align: center;
 }
 
 
@@ -233,37 +234,39 @@ h3 {
 
 /* trainers start */
 .trainers {    
-    
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .trainer {
-    width: 900px;
+
     color: #fce138;
     background: #024e76;
-    margin: 0 auto 30px auto;
-    overflow: auto;
+    margin: 20px;
+    flex: 1;
+
 }
 
 .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
 }
 
 .trainer-bio {
-    padding: 35px;
-    float: left;
-    width: 65%;
+    padding: 25px;
+    line-height: 1.5;
 }
 
 .trainer-bio h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
+    font-size: 28px;
 }
 
 .trainer-bio h4 {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: lighter;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .trainer-bio p {
