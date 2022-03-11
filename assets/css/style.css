@@ -70,7 +70,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background:var(--primary-color);
-    color: #;
+    color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -257,7 +257,7 @@ h3 {
     width: 50%;    
 }
 .primary-border {
-    border-colorvar(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .secondary-border {
